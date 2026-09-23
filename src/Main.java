@@ -1,4 +1,9 @@
+import java.io.BufferedReader;
+
+
 public class Main {
+
+        public static BufferedReader entrada = new BufferedReader(new InputStreamerReader(System.in));
 
         public static void main(String[] args){
 
@@ -19,7 +24,12 @@ public class Main {
 
 
             // 1. Construccion del objeto
-            Libro libro1 = new Libro();
+            Libro libro1 = new Libro( "Cien Años de Soledad", "Gabriel Garcia Marquez", "novela", (short)1967);
+
+            System.out.println("El libro se titula " + libro1.titulo + ", y es un(a) " + libro1.genero +
+                    " publicado(a) por " + libro1.autor + " en " + libro1.anioPublicacion + ".\n");
+
+
 
             // 2. Asignacion de los atributos del objeto
             libro1.titulo = "Cien Años de Soledad";
@@ -37,7 +47,8 @@ public class Main {
             System.out.println("El libro se titula " + libro1.titulo + ", y es un(a) " + libro1.genero +
                                 " publicado(a) por " + libro1.autor + " en " + libro1.anioPublicacion + ".\n");
 
-            System.out.println(libro1);
+
+         // System.out.println(libro1);
 
          // Modelo de un perro
 
