@@ -26,16 +26,16 @@ public class Main {
             // 1. Construccion del objeto
             Libro libro1 = new Libro( "Cien Años de Soledad", "Gabriel Garcia Marquez", "novela", (short)1967);
 
-            System.out.println("El libro se titula " + libro1.titulo + ", y es un(a) " + libro1.genero +
-                    " publicado(a) por " + libro1.autor + " en " + libro1.anioPublicacion + ".\n");
+            System.out.println("El libro se titula " + libro1.getTitulo() + ", y es un(a) " + libro1.genero +
+                    " publicado(a) por " + libro1.autor + " en " + libro1.getAnioPublicacion() + ".\n");
 
-
+            //String palabra = "Hola";
 
             // 2. Asignacion de los atributos del objeto
-            libro1.titulo = "Cien Años de Soledad";
-            libro1.autor = "Gabriel Garcia Marquez";
-            libro1.genero = "novela";
-            libro1.anioPublicacion = 1967;
+            //libro1.titulo = "Cien Años de Soledad";
+            //libro1.autor = "Gabriel Garcia Marquez";
+            //libro1.genero = "novela";
+            //libro1.anioPublicacion = 1967;
 
 
             //System.out.println("El libro se titula " + libro1.titulo + ", y es un(a) " + libro1.genero +
@@ -44,8 +44,8 @@ public class Main {
             //System.out.println(libro1);
 
 
-            System.out.println("El libro se titula " + libro1.titulo + ", y es un(a) " + libro1.genero +
-                                " publicado(a) por " + libro1.autor + " en " + libro1.anioPublicacion + ".\n");
+            //System.out.println("El libro se titula " + libro1.titulo + ", y es un(a) " + libro1.genero +
+                                //" publicado(a) por " + libro1.autor + " en " + libro1.anioPublicacion + ".\n");
 
 
          // System.out.println(libro1);
