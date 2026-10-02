@@ -55,6 +55,11 @@ public class Libro {
                 this.genero.equals(libro.genero) && (this.anioPublicacion == libro.anioPublicacion);
 
     }
+
+    // toString()
+    public String toString() {
+        return "Título: " + titulo + "\nAutor: " + autor + "\nGénero: + " + genero + "\nAño de publicación: " + anioPublicacion + "\n";
+    }
 }
 
 

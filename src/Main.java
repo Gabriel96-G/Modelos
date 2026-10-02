@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 
 public class Main {
 
-        public static BufferedReader entrada = new BufferedReader(new InputStreamerReader(System.in));
+        //public static BufferedReader entrada = new BufferedReader(new InputStreamerReader(System.in));
 
         public static void main(String[] args){
 
@@ -26,8 +26,10 @@ public class Main {
             // 1. Construccion del objeto
             Libro libro1 = new Libro( "Cien Años de Soledad", "Gabriel Garcia Marquez", "novela", (short)1967);
 
-            System.out.println("El libro se titula " + libro1.getTitulo() + ", y es un(a) " + libro1.genero +
-                    " publicado(a) por " + libro1.autor + " en " + libro1.getAnioPublicacion() + ".\n");
+            //System.out.println("El libro se titula " + libro1.getTitulo() + ", y es un(a) " + libro1.genero +
+                    //" publicado(a) por " + libro1.autor + " en " + libro1.getAnioPublicacion() + ".\n");
+
+            System.out.println(libro1);
 
             //String palabra = "Hola";
 
